@@ -58,7 +58,7 @@ function atualizarVisibilidadeFilmes() {
 
     porcentagemContainer.innerHTML = "";
     const porcentagemElement = document.createElement("p");
-    porcentagemElement.textContent = `${diretorSelecionado}: ${resultadoPorcentagem}%`;
+    porcentagemElement.textContent = `${diretorSelecionado}: ${resultadoPorcentagem}% dos filmes do Studio Ghibli`;
     porcentagemContainer.appendChild(porcentagemElement);
   } else {
     porcentagemContainer.innerHTML = "";
